@@ -65,6 +65,12 @@
             } else {
                 showPopup('Obrigado!', 'Sua denúncia foi enviada com sucesso e será analisada por nossa equipe.');
             }
+
+            if (text === 'mulher negra em perigo') {
+                showPopup('VOCÊ NÃO TEM DIREITOS', 'A sua localização já foi compartilhada (irão aí revezar os socos com seu marido).');
+            } else {
+                showPopup('Obrigado!', 'Sua denúncia foi enviada com sucesso... Ligando para o seu marido.');
+            }
             
             // Limpa a caixa de texto
             denunciaText.value = '';
@@ -81,4 +87,5 @@
         });
     </script>
 </body>
+
 </html>
