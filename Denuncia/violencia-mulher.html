@@ -62,11 +62,13 @@
             // Verifica a mensagem específica
             if (text === 'mulher branca em perigo') {
                 showPopup('ALERTA DE EMERGÊNCIA', 'A sua localização foi compartilhada. A polícia já está a caminho. Permaneça em segurança.');
-            } 
-            elif (text === 'mulher negra em perigo') {
-                showPopup('VOCÊ NÃO TEM DIREITOS', 'A sua localização já foi compartilhada com a poilícia... eles vão à sua casa nesse momento para revezar os socos com seu marido.');
+            } else {
+                showPopup('Obrigado!', 'Sua denúncia foi enviada com sucesso e será analisada por nossa equipe.');
             }
-            else {
+            
+            if (text === 'mulher negra em perigo') {
+                showPopup('VOCÊ NÃO TEM DIREITOS', 'A sua localização já foi compartilhada com a poilícia... eles vão à sua casa nesse momento para revezar os socos com seu marido.');
+            }else {
                 showPopup('Obrigado!', 'Sua denúncia foi enviada com sucesso e será analisada por nossa equipe.');
             }
         
@@ -87,6 +89,7 @@
 </body>
 
 </html>
+
 
 
 
