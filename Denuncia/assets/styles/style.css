@@ -1,0 +1,6 @@
+/* Importando estilização geral */
+@import url('global.css');
+
+.content-box li{
+    margin-top: 15px;
+}
