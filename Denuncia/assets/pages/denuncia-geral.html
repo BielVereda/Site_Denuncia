@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncia Geral - Portal de Denúncia</title>
+    <link rel="stylesheet" href="./../styles/style.css">
+</head>
+<body>
+    <nav>
+        <a href="./../../index.html">Início</a>
+        <a href="denuncia-geral.html" class="active">Denuncia Geral</a>
+        <a href="violencia-mulher.html">Violência contra mulher</a>
+        <a href="numeros-emergencia.html">Números de emergência</a>
+    </nav>
+
+    <main class="main-content">
+        <div class="content-box">
+            <h2>Faça sua Denúncia Geral</h2>
+            <p>Utilize o campo abaixo para descrever a situação. Forneça o máximo de detalhes possível. Sua denúncia é anônima.</p>
+            <textarea id="denunciaText" placeholder="Descreva sua denúncia aqui..."></textarea>
+            <button id="submitBtn" class="submit-btn">Enviar Denúncia</button>
+        </div>
+    </main>
+
+    <div id="popupModal" class="modal">
+        <div class="modal-content">
+            <h2 id="popupTitle"></h2>
+            <p id="popupMessage"></p>
+        </div>
+    </div>
+
+    <script src="./../scripts/denuncia.js"></script>
+</body>
+
+</html>
