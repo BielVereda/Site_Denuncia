@@ -1,0 +1,262 @@
+/* Importando uma fonte do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Body (geral) */
+body {
+  background: linear-gradient(135deg, #d8d2e8, #a799c7);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.content-box {
+  background-color: #ede9f9;
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.content-box h1,
+.content-box h2 {
+  margin: 0 0 20px 0;
+  font-size: 26px;
+  color: #3f3c62;
+}
+
+.content-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a466a;
+}
+
+/* Transição inicial */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-content {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* NAV's */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+  scale: 0.96;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3f3c62;
+  background-color: #ede9f9;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+  background-color: #3f3c62;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+  background-color: #c9c0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+footer a,
+#link {
+  position: relative;
+  color: #3f3c62;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+footer a::after,
+#link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #3f3c62;
+  transition: width 0.3s ease;
+}
+
+footer a:hover,
+#link:hover {
+  color: #3f3c62;
+}
+
+footer a:hover::after,
+#link:hover::after {
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #3f3c62;
+}
+
+.hero-mobile {
+  display: none; /* Esconde por padrão */
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .content-box {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 12px;
+  }
+
+  .content-box h1 {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+
+  .content-box h2 {
+    font-size: 1rem;
+  }
+
+  .content-box p,
+  .content-box li {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 8px 0;
+    border-radius: 30px;
+  }
+
+  footer a {
+    font-size: 0.85rem;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  button,
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.6rem;
+    align-items: center;
+  }
+
+  .main-content {
+    max-width: 99vw; /* remove padding grande */
+  }
+
+  .emergency-grid {
+    display: block; /* garante uma coluna única */
+  }
+
+  .emergency-card {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .emergency-card h3 {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  .emergency-card p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  footer {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 30px 30px 0 0;
+    margin-bottom: 0;
+  }
+
+  nav {
+    margin-bottom: 20px;
+  }
+}
