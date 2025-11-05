@@ -21,6 +21,20 @@ Inclui referências à **Lei Maria da Penha**, **Lei do Feminicídio**, **Lei de
 
 ---
 
+### 🚨 Denúncias gerais
+Página dedicada ao registro de **denúncias contra qualquer pessoa/empresa**, com um campo de relato seguro e botão de envio.
+
+![Violência Contra Mulher](./screenshots/denucia.png)
+
+---
+
+### 🚨 Violência Contra Mulher
+Página dedicada ao registro de **denúncias específicas de violência contra a mulher**, com um campo de relato seguro e botão de envio.
+
+![Violência Contra Mulher](./screenshots/denucia_mulher.png)
+
+---
+
 ### 📞 Números de Emergência
 Reúne os principais números de emergência nacionais, com destaque para:
 - **180** — Central de Atendimento à Mulher  
@@ -28,16 +42,10 @@ Reúne os principais números de emergência nacionais, com destaque para:
 - **192** — SAMU  
 - **100** — Disque Direitos Humanos  
 
-![Números de Emergência](./screenshots/numeros-emergencia.png)
+![Números de Emergência](./screenshots/numeros.png)
 
 ---
 
-### 🚨 Violência Contra Mulher
-Página dedicada ao registro de **denúncias específicas de violência contra a mulher**, com um campo de relato seguro e botão de envio.
-
-![Violência Contra Mulher](./screenshots/violencia-mulher.png)
-
----
 
 ## 🧩 Estrutura do Projeto
 
