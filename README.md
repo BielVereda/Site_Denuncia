@@ -17,7 +17,7 @@ O objetivo principal é oferecer um espaço **seguro, acessível e educativo**, 
 Apresenta informações sobre o portal e as principais leis de proteção no Brasil.  
 Inclui referências à **Lei Maria da Penha**, **Lei do Feminicídio**, **Lei de Importunação Sexual**, entre outras.
 
-![Página Inicial](./screenshots/home.png)
+![Página Inicial](./screenshots/inicio.png)
 
 ---
 
