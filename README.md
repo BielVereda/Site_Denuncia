@@ -24,14 +24,14 @@ Inclui referências à **Lei Maria da Penha**, **Lei do Feminicídio**, **Lei de
 ### 🚨 Denúncias gerais
 Página dedicada ao registro de **denúncias contra qualquer pessoa/empresa**, com um campo de relato seguro e botão de envio.
 
-![Violência Contra Mulher](./screenshots/denucia.png)
+![Violência Contra Mulher](./screenshots/denuncia.png)
 
 ---
 
 ### 🚨 Violência Contra Mulher
 Página dedicada ao registro de **denúncias específicas de violência contra a mulher**, com um campo de relato seguro e botão de envio.
 
-![Violência Contra Mulher](./screenshots/denucia_mulher.png)
+![Violência Contra Mulher](./screenshots/denuncia_mulher.png)
 
 ---
 
